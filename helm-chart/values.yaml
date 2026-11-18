@@ -1,11 +1,11 @@
 frontend:
   repository: srikantheggoju/food-frontend
-  tag: latest
+  tag: 5
   replicas: 2
 
 backend:
   repository: srikantheggoju/food-backend
-  tag: latest
+  tag: 5
   replicas: 2
 
 mongodb:
