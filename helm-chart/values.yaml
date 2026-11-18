@@ -1,0 +1,14 @@
+frontend:
+  repository: srikantheggoju/food-frontend
+  tag: latest
+  replicas: 2
+
+backend:
+  repository: srikantheggoju/food-backend
+  tag: latest
+  replicas: 2
+
+mongodb:
+  image: mongo:6
+  replicas: 1
+
